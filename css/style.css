@@ -1,0 +1,51 @@
+span h3:hover, span h4:hover{
+    color: red;
+    transition: 0.3s;
+}
+.card1{
+    /* visibility: hidden; */
+    opacity: 0;
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    bottom: 0; 
+    background-color: rgba(238, 224, 224, 0.5);
+}
+.forcard:hover .card1{
+    /* display: block; */
+    transition: 0.5s;
+    opacity: 1;
+}
+.clock:hover{
+    color: red;
+    transition: 0.3s;
+}
+.box{
+    width: 20%;
+    height: 25%;
+    background-color: white;
+}
+.address-link{
+    text-decoration: none;
+    color: black;
+}
+span a{
+    text-decoration: none;
+    color: black;
+}
+.forcard img{
+    width: 100%;
+}
+.nimadir{
+    margin-bottom: 500px;
+}
+@media (max-width: 768px) {
+    .footer{
+        position: static;
+    }
+    .nimadir{
+        margin-bottom: 0px;
+       
+    }
+
+}
